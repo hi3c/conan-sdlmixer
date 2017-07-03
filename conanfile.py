@@ -12,7 +12,7 @@ class SdlmixerConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
     generators = "cmake"
-    requires = ("SDL2/2.0.5@hi3c/experimental",
+    requires = ("SDL2/2.0.5_1@hi3c/experimental",
                 "smpeg/2.0.0@hi3c/experimental",
                 "libvorbis/1.3.5@hi3c/experimental")
     exports = "CMakeLists.txt"
