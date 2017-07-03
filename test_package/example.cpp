@@ -2,7 +2,7 @@
 
 #define SDL_MAIN_HANDLED
 #include <SDL.h>
-#include <SDL_Mixer.h>
+#include <SDL_mixer.h>
 
 int main() {
     SDL_Init(0);

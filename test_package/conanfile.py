@@ -8,7 +8,7 @@ username = os.getenv("CONAN_USERNAME", "hi3c")
 
 class SdlmixerTestConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "SDL2_mixer/2.0.1@%s/%s" % (username, channel)
+    requires = "SDL2_mixer/2.0.1_1@%s/%s" % (username, channel)
     generators = "cmake"
 
     def build(self):
